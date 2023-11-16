@@ -1,0 +1,272 @@
+
+@font-face {
+    font-family: "Circular Spotify Text";
+    src: url(fonts/CircularSpotifyText-Black.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Circular Spotify Text";
+    src: url(fonts/CircularSpotifyText-Medium.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Circular Spotify Text";
+    src: url(fonts/CircularSpotifyText-Bold.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Circular Spotify Text";
+    src: url(fonts/CircularSpotifyText-Light.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Circular Spotify Text";
+    src: url(fonts/CircularSpotifyText-Book.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Circular Spotify Text";
+    src: url(fonts/CircularSpotifyText-BlackItalic.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Circular Spotify Text";
+    src: url(fonts/CircularSpotifyText-BookItalic.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Circular Spotify Text";
+    src: url(fonts/CircularSpotifyText-MediumItalic.otf);
+    font-weight: 800;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Circular Spotify Text";
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: black;
+    font-weight: 200;
+
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+
+}
+
+.logo {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 132px;
+    margin-top: 10px;
+}
+
+.logo img {
+    width: 150%;
+    height: auto;
+    object-fit: cover;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 442px;
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.traco {
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none; 
+    color: #fff;
+}
+
+nav a:hover {
+    color: #1ed760;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+nav button {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    border: none;
+    
+}
+
+button a {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    background-image: url(images/desktop-album-evergreen-1x.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+    
+}
+
+.banner1 {
+    display: flex;
+    flex-direction: column;
+    height: 405.2px;
+    width: 624px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+.banner2 {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-right: 32px;
+    padding-left: 32px;
+    color: #fff;
+}
+
+.banner2 h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 100; /*font face*/
+}
+
+.banner2 h2 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 19.92px;
+    font-weight: 500; /*font face*/
+}
+
+.banner3 {
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    margin-top: 35px;
+    
+}
+
+.banner2 p {
+    font-size: 11px;
+}
+
+p a:visited {
+    color: #fff;
+}
+
+.banner2 p {
+    margin: 0;
+}
+
+.button1 {
+    background-color: #0d72ea;
+    color: #000;
+    border: none;           /*tirar a borda do button*/
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-bottom: 16px;
+    margin-right: 8px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 200; /*font face*/
+}
+
+.button2 {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-right: 32px;
+    padding-left: 32px;
+    border: solid 2px #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 200; /*font face*/
+    
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    height: 571.3px; 
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.header2 h2 {
+
+    font-size: 40px;
+    height: 48px;
+    margin-right: 235px;
+    margin-left: 235px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 300; /*font face*/
+}
